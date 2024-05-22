@@ -1,0 +1,85 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    right: 24px;
+    top: 12px;
+    width: calc(100% - 24px);
+    background-color: transparent;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #33ff49;
+    text-decoration: none;
+    transition: color 0.5s, transform 0.3s ease-in-out;
+    font-size: 36px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    font-family: "EB Garamond", serif;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    animation: fadeInUp 1s ease-out;
+}
+
+h1:hover {
+    color: #33ff49;
+    scale: 1.1;
+}
+
+#about {
+    font-family: "EB Garamond", serif;
+    background: url(https://images.hdqwalls.com/wallpapers/2d-environment-4k-57.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    animation: fadeInUp 1s ease-out;
+} 
+
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
